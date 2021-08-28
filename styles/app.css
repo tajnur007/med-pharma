@@ -27,9 +27,9 @@
 */
 :root {
     /* Colors */
-    --bg-primary: #292B4D;
-    --bg-secondary: #17CBF9;
-    --bg-ltgray: #c9d1cc;
+    --color-primary: #292B4D;
+    --color-secondary: #17CBF9;
+    --color-ltgray: #d9dfdb;
 
     /* Sizes */
     --regular: 16px;
@@ -79,6 +79,14 @@ a{
     align-items: center;
 }
 
+/* Background Styles */
+.bg-primary {
+    background-color: var(--color-primary);
+}
+.bg-secondary {
+    background-color: var(--color-secondary);
+}
+
 /* Text Styles */
 .text-center {
     text-align: center;
@@ -88,6 +96,42 @@ a{
 }
 .text-bold {
     font-weight: 700;
+}
+.text-primary {
+    color: var(--color-primary);
+}
+.text-secondary {
+    color: var(--color-secondary);
+}
+.text-gray {
+    color: var(--color-ltgray);
+}
+
+/* Width Styles */
+.w-100 {
+    width: 100%;
+}
+.w-75 {
+    width: 75%;
+}
+.w-50 {
+    width: 50%;
+}
+
+/* Border Radius Styles */
+.rad-5 {
+    border-radius: 5px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.circle {
+    border-radius: 50%;
+}
+
+/* Box Shadow Style  */
+.shadow {
+    box-shadow: 0 0 10px #494949;
 }
 
 /* Margin Styles */
