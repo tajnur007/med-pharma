@@ -1,7 +1,16 @@
-/* Google Font - Poppins  */
+/*
+///////////////////////////////
+    Google Font - Poppins
+///////////////////////////////
+*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
-/* Resetting All Browser's Default Styles  */
+
+/*
+///////////////////////////////////////////////
+    Resetting All Browser's Default Styles
+///////////////////////////////////////////////
+*/
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +19,12 @@
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
-/* Custom Variables */
+
+/*
+/////////////////////////
+    Custom Variables
+/////////////////////////
+*/
 :root {
     /* Colors */
     --bg-primary: #292B4D;
@@ -24,7 +38,211 @@
     --extra-large: 25px;
 }
 
-/* Setting Default Body Styles  */
+
+/*
+///////////////////////////////
+    Setting Default Styles
+///////////////////////////////
+*/
 body {
     background-color: var(--bg-ltgray);
 }
+a{
+    text-decoration: none;
+}
+
+
+/*
+///////////////////////
+    Utility Styles
+///////////////////////
+*/
+/* Display Styles */
+.d-none {
+    display: none;
+}
+.d-flex {
+    display: flex;
+}
+.d-block {
+    display: block;
+}
+
+/* Element Alignment */
+.h-center {
+    justify-content: center;
+}
+.h-space {
+    justify-content: space-between;
+}
+.v-center {
+    align-items: center;
+}
+
+/* Text Styles */
+.text-center {
+    text-align: center;
+}
+.text-justify {
+    text-align: justify;
+}
+.text-bold {
+    font-weight: 700;
+}
+
+/* Margin Styles */
+/* Margin All */
+.m-0 {
+    margin: 0;
+}
+.m-5 {
+    margin: 5px;
+}
+.m-10 {
+    margin: 10px;
+}
+/* Margin Top  */
+.mt-0 {
+    margin-top: 0;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+/* Margin Bottom */
+.mb-0 {
+    margin-bottom: 0;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+/* Margin Left */
+.ml-0 {
+    margin-left: 0;
+}
+.ml-5 {
+    margin-left: 5px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+/* Margin Right  */
+.mr-0 {
+    margin-right: 0;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+/* Margin X-axis */
+.mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+.mx-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.mx-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Margin Y-axis */
+.my-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.my-5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Padding Styles */
+/* Padding All */
+.p-0 {
+    padding: 0;
+}
+.p-5 {
+    padding: 5px;
+}
+.p-10 {
+    padding: 10px;
+}
+/* Padding Top  */
+.pt-0 {
+    padding-top: 0;
+}
+.pt-5 {
+    padding-top: 5px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+/* Padding Bottom */
+.pb-0 {
+    padding-bottom: 0;
+}
+.pb-5 {
+    padding-bottom: 5px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+/* Padding Left */
+.pl-0 {
+    padding-left: 0;
+}
+.pl-5 {
+    padding-left: 5px;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+/* Padding Right  */
+.pr-0 {
+    padding-right: 0;
+}
+.pr-5 {
+    padding-right: 5px;
+}
+.pr-10 {
+    padding-right: 10px;
+}
+/* Padding X-axis */
+.px-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.px-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Padding Y-axis */
+.py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.py-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
