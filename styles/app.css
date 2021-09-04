@@ -27,9 +27,9 @@
 */
 :root {
     /* Colors */
-    --color-primary: #292B4D;
-    --color-secondary: #17CBF9;
-    --color-ltgray: #d9dfdb;
+    --primary: #292B4D;
+    --secondary: #17CBF9;
+    --ltgray: #d9dfdb;
 
     /* Sizes */
     --regular: 16px;
@@ -45,7 +45,7 @@
 ///////////////////////////////
 */
 body {
-    background-color: var(--bg-ltgray);
+    background-color: var(--ltgray);
 }
 a{
     text-decoration: none;
@@ -81,10 +81,10 @@ a{
 
 /* Background Styles */
 .bg-primary {
-    background-color: var(--color-primary);
+    background-color: var(--primary);
 }
 .bg-secondary {
-    background-color: var(--color-secondary);
+    background-color: var(--secondary);
 }
 
 /* Text Styles */
@@ -98,13 +98,13 @@ a{
     font-weight: 700;
 }
 .text-primary {
-    color: var(--color-primary);
+    color: var(--primary);
 }
 .text-secondary {
-    color: var(--color-secondary);
+    color: var(--secondary);
 }
 .text-gray {
-    color: var(--color-ltgray);
+    color: var(--ltgray);
 }
 
 /* Width Styles */
