@@ -590,6 +590,43 @@ a{
     font-size: 16px;
 }
 
+nav {
+    position: fixed;
+}
+
+#nav-items>li {
+    display: inline-block;
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--ltgray);
+    padding: 15px;
+    transition: .3s ease-in;
+}
+#nav-items>li:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+#category-items {
+    display: none;
+    width: fit-content;
+    position: absolute;
+    left: 144px;
+}
+#category-items>ul>li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--ltgray);
+    padding: 10px 20px;
+    transition: .3s ease-in;
+}
+#category-items>ul>li:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
 
 
 /*
