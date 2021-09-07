@@ -15,21 +15,24 @@
     <!-- Start of Header Section  -->
     <header>
         <!-- Upper Portion of the Navbar  -->
-        <div class="d-flex h-space mx-25">
+        <div class="d-flex h-space mx-5 my-1">
             <!-- Company Logo  -->
             <div class="d-flex v-center">
                 <!-- Company Image  -->
-                <div><img src="resources/med-pharma-icon.png" alt=""></div>
+                <div><img id="company-image" src="resources/med-pharma-icon.png" alt=""></div>
                 <!-- Company Name  -->
-                <h1>Med Pharma</h1>
+                <h1 class="text-primary">MED PHARMA</h1>
             </div>
             <!-- Search Box  -->
-            <div>
-                <input type="text" placeholder="Search a product"><span><i class="fas fa-search"></i></span>
+            <div class="d-flex v-center">
+                <div class="bg-primary d-flex rad-5 m-1">
+                    <input id="search-field" class="d-block pl-2" type="text" placeholder="Search a product"> <span><i
+                            class="fas fa-search d-block p-2 text-gray cursor"></i></span>
+                </div>
             </div>
             <!-- User Login  -->
-            <div>
-                <div><i class="fas fa-user"></i></div>
+            <div class="d-flex v-center">
+                <div><i class="fas fa-user text-primary p-2 shadow circle cursor"></i></div>
             </div>
         </div>
     </header>
