@@ -198,6 +198,14 @@ a{
     margin-left: 10px;
     margin-right: 10px;
 }
+.mp-4 {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Margin Y-axis */
 .my-0 {
     margin-top: 0;
