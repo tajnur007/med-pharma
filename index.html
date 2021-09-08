@@ -13,55 +13,51 @@
 
 <body>
     <!-- Start of Header Section  -->
-    <header>
-        <!-- Upper Portion of the Navbar  -->
-        <div class="d-flex h-space mx-5 my-1">
-            <!-- Company Logo  -->
-            <div class="d-flex v-center">
-                <!-- Company Image  -->
-                <div><img id="company-image" src="resources/med-pharma-icon.png" alt=""></div>
-                <!-- Company Name  -->
-                <h1 class="text-primary">MED PHARMA</h1>
-            </div>
-            <!-- Search Box  -->
-            <div class="d-flex v-center">
-                <div class="bg-primary d-flex rad-5 m-1">
-                    <input id="search-field" class="d-block pl-2" type="text" placeholder="Search a product"> <span><i
-                            class="fas fa-search d-block p-2 text-gray cursor"></i></span>
-                </div>
-            </div>
-            <!-- User Login  -->
-            <div class="d-flex v-center">
-                <div class="px-3"><i class="fas fa-cart-plus text-primary p-2 shadow circle cursor"></i></div>
-                <div><i class="fas fa-user text-primary p-2 shadow circle cursor"></i></div>
+    <header class="d-flex h-space mx-5 my-1">
+        <!-- Company Logo  -->
+        <div class="d-flex v-center">
+            <!-- Company Image  -->
+            <div><img id="company-image" src="resources/med-pharma-icon.png" alt=""></div>
+            <!-- Company Name  -->
+            <h1 class="text-primary">MED PHARMA</h1>
+        </div>
+        <!-- Search Box  -->
+        <div class="d-flex v-center">
+            <div class="bg-primary d-flex rad-5 m-1">
+                <input id="search-field" class="d-block pl-2" type="text" placeholder="Search a product"> <span><i
+                        class="fas fa-search d-block p-2 text-gray cursor"></i></span>
             </div>
         </div>
-
-        <!-- Navbar  -->
-        <nav class="bg-primary">
-            <div class="mx-5">
-                <ul id="nav-items">
-                    <li>Home</li>
-                    <li id="category">Categories</li>
-                    <li>Upload a Prescription</li>
-                    <li>About Us</li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Category Items (on hover dropdown menu)  -->
-        <div id="category-items" class="bg-primary">
-            <ul>
-                <li>COVID-19 Products</li>
-                <li>Allopathic</li>
-                <li>Herbal</li>
-                <li>Homeo</li>
-                <li>Unani</li>
-                <li>Vaccine</li>
-                <li>Devices</li>
-                <li>Health Care</li>
-            </ul>
+        <!-- User Login  -->
+        <div class="d-flex v-center">
+            <div class="px-3"><i class="fas fa-cart-plus text-primary p-2 shadow circle cursor"></i></div>
+            <div><i class="fas fa-user text-primary p-2 shadow circle cursor"></i></div>
         </div>
     </header>
+    <!-- Navbar  -->
+    <nav class="bg-primary">
+        <div class="mx-5">
+            <ul id="nav-items">
+                <li>Home</li>
+                <li id="category">Categories
+                    <ul>
+                        <li>COVID-19 Products</li>
+                        <li>Allopathic</li>
+                        <li>Herbal</li>
+                        <li>Homeo</li>
+                        <li>Unani</li>
+                        <li>Vaccine</li>
+                        <li>Devices</li>
+                        <li>Health Care</li>
+                    </ul>
+                </li>
+                <li>Upload a Prescription</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+    </nav>
+
+
 
 
 </body>
