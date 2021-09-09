@@ -630,6 +630,13 @@ nav {
     background-color: var(--secondary);
     color: var(--primary);
 }
+ul>li>a {
+    color: var(--ltgray);
+}
+ul>li>a:hover {
+    color: var(--primary);
+}
+
 
 #category:hover > ul {
     visibility: visible;
@@ -664,6 +671,12 @@ nav {
     Footer Styles
 /////////////////////////
 */
+.footer-links {
+    color: var(--dkgray);
+}
+.footer-links:hover {
+    color: white;
+}
 .social {
     width: 30px;
 }
