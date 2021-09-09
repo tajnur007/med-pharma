@@ -664,7 +664,17 @@ ul>li>a:hover {
     color: var(--primary);
 }
 
-
+/* Toggle Menu  */
+#toggle-menu {
+    position: fixed;
+    right: -350px;
+    top: 0;
+    width: 350px;
+    height: 100%;
+    background-color: var(--primary);
+    visibility: hidden;
+    transition: 0.5s;
+}
 
 /*
 /////////////////////////
@@ -679,7 +689,8 @@ ul>li>a:hover {
 }
 .social {
     width: 30px;
+    transition: 0.5s;
 }
 .social:hover {
-    filter: invert(1);
+    transform: translateY(-8px);
 }

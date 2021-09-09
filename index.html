@@ -11,7 +11,7 @@
     <title>Med Pharma</title>
 </head>
 
-<body>
+<body id="body">
     <!-- Start of Header Section  -->
     <header class="d-flex h-space mx-5 my-1">
         <!-- Company Logo  -->
@@ -30,10 +30,11 @@
             </div>
         </div>
 
-        <!-- User Login  -->
+        <!-- User Login and Cart  -->
         <div class="d-flex v-center">
             <div class="px-3"><i class="fas fa-cart-plus text-primary p-2 shadow circle cursor"></i></div>
-            <div><i class="fas fa-user text-primary p-2 shadow circle cursor"></i></div>
+            <div><i id="user-icon" class="fas fa-user text-primary p-2 shadow circle cursor" onclick="toggle()"></i>
+            </div>
         </div>
     </header>
     <!-- Navbar  -->
@@ -59,16 +60,25 @@
         </div>
     </nav>
 
-    <h1 class="m-5">This is heading number 1</h1>
-    <h1 class="m-5">This is heading number 2</h1>
-    <h1 class="m-5">This is heading number 3</h1>
-    <h1 class="m-5">This is heading number 4</h1>
-    <h1 class="m-5">This is heading number 5</h1>
-    <h1 class="m-5">This is heading number 6</h1>
-    <h1 class="m-5">This is heading number 7</h1>
-    <h1 class="m-5">This is heading number 8</h1>
-    <h1 class="m-5">This is heading number 9</h1>
-    <h1 class="m-5">This is heading number 10</h1>
+    <!-- Toggle Menu  -->
+    <div id="toggle-menu">
+
+    </div>
+
+    <!-- Start of Main Section  -->
+    <main>
+        <h1 class="m-5">This is heading number 1</h1>
+        <h1 class="m-5">This is heading number 2</h1>
+        <h1 class="m-5">This is heading number 3</h1>
+        <h1 class="m-5">This is heading number 4</h1>
+        <h1 class="m-5">This is heading number 5</h1>
+        <h1 class="m-5">This is heading number 6</h1>
+        <h1 class="m-5">This is heading number 7</h1>
+        <h1 class="m-5">This is heading number 8</h1>
+        <h1 class="m-5">This is heading number 9</h1>
+        <h1 class="m-5">This is heading number 10</h1>
+
+    </main>
 
 
 
@@ -152,6 +162,9 @@
 
 
 
+
+    <!-- Custom JS  -->
+    <script src="js/app.js"></script>
 </body>
 
 </html>
