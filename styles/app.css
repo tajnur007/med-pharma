@@ -615,6 +615,7 @@ nav {
     width: 400px;
     margin: 2px;
     font-size: 16px;
+    outline: none;
 }
 
 #search-icon {
@@ -678,6 +679,30 @@ ul>li>a:hover {
     background-color: var(--primary);
     visibility: hidden;
     transition: 0.5s;
+}
+
+#login-container {
+    width: 90%;
+    background-color: #00000028;
+}
+
+.input {
+    width: 95%;
+    height: 30px;
+    font-size: 1em;
+    background-color: transparent;
+    border: 1px solid var(--secondary);
+    outline: none;
+}
+
+#login {
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+    transition: .5s;
+}
+#login:hover {
+    color: var(--primary);
+    background-color: var(--secondary);
 }
 
 /*
