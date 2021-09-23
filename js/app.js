@@ -9,8 +9,7 @@ const toggle = () => {
     body.style.transition = '0.5s';
     if (checkToggle) {
         checkToggle = false;
-        userIcon.classList.add('fa-user');
-        userIcon.classList.remove('fa-times');
+        userIcon.setAttribute('src', 'resources/user-icon.png')
         body.style.marginRight = '0';
 
         toggleMenu.style.visibility = 'hidden';
@@ -18,8 +17,7 @@ const toggle = () => {
     }
     else {
         checkToggle = true;
-        userIcon.classList.remove('fa-user');
-        userIcon.classList.add('fa-times');
+        userIcon.setAttribute('src', 'resources/close-icon.png');
         body.style.marginRight = '350px';
 
         toggleMenu.style.visibility = 'visible';

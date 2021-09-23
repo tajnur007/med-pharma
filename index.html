@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="resources/med-pharma-icon.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/82429b83fd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/app.css">
     <title>Med Pharma</title>
 </head>
@@ -25,15 +24,21 @@
         <!-- Search Box  -->
         <div class="d-flex v-center">
             <div class="bg-primary d-flex rad-5 m-1">
-                <input id="search-field" class="d-block pl-2" type="text" placeholder="Search a product"> <span><i
-                        class="fas fa-search d-block p-2 text-gray cursor"></i></span>
+                <input id="search-field" class="d-block pl-2" type="text" placeholder="Search a product"> <span><img
+                        id="search-icon" class="d-block p-2 text-gray cursor" src="resources/search-icon.png"
+                        alt=""></span>
             </div>
         </div>
 
         <!-- User Login and Cart  -->
         <div class="d-flex v-center">
-            <div class="px-3"><i class="fas fa-cart-plus text-primary p-2 shadow circle cursor"></i></div>
-            <div><i id="user-icon" class="fas fa-user text-primary p-2 shadow circle cursor" onclick="toggle()"></i>
+            <div class="px-3">
+                <img id="cart-icon" class="p-1 shadow circle cursor" onclick="" src="resources/cart-icon.png"
+                    alt="cart-icon">
+            </div>
+            <div>
+                <img id="user-icon" class="p-1 shadow circle cursor" onclick="toggle()" src="resources/user-icon.png"
+                    alt="">
             </div>
         </div>
     </header>

@@ -617,6 +617,10 @@ nav {
     font-size: 16px;
 }
 
+#search-icon {
+    filter: invert(0.8);
+}
+
 #nav-items>li {
     display: inline-block;
     list-style: none;
