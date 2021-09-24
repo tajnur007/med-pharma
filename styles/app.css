@@ -677,6 +677,7 @@ ul>li>a:hover {
     width: 350px;
     height: 100%;
     background-color: var(--primary);
+    border-left: 1px solid var(--dkgray);
     visibility: hidden;
     transition: 0.5s;
 }
