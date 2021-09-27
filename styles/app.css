@@ -612,10 +612,11 @@ nav {
 }
 
 #search-field {
-    width: 400px;
+    height: 89%;
     margin: 2px;
     font-size: 16px;
     outline: none;
+    background-color: var(--ltgray);
 }
 
 #search-icon {
