@@ -600,12 +600,6 @@ a{
     Header Styles
 /////////////////////////
 */
-nav {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    box-shadow: 0 5px 10px #949393;
-}
 #company-image {
     width: 50px;
     margin-right: 10px;
@@ -623,6 +617,12 @@ nav {
     filter: invert(0.8);
 }
 
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 5px 10px #949393;
+}
 #nav-items>li {
     display: inline-block;
     list-style: none;
@@ -642,7 +642,6 @@ ul>li>a {
 ul>li>a:hover {
     color: var(--primary);
 }
-
 
 #category:hover > ul {
     visibility: visible;
@@ -667,6 +666,14 @@ ul>li>a:hover {
 }
 #category>ul>li:hover {
     background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.active {
+    background-color: var(--secondary);
+    color: var(--primary) !important;
+}
+.active > a {
     color: var(--primary);
 }
 
