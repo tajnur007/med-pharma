@@ -621,6 +621,7 @@ nav {
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 1000;
     box-shadow: 0 5px 10px #949393;
 }
 #nav-items>li {
@@ -724,6 +725,11 @@ ul>li>a:hover {
     overflow: hidden;
     background-color: white;
     border-radius: 5px;
+    transition: ease .5s;
+}
+.product-card:hover {
+    box-shadow: 0 0 15px #00000062;
+    transform: translateY(-1.5vh);
 }
 .product-body > button {
     color: var(--primary);
