@@ -716,6 +716,27 @@ ul>li>a:hover {
     background-color: var(--secondary);
 }
 
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5vw;
+}
+.product-card {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 5px;
+}
+.product-body > button {
+    color: var(--primary);
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    transition: ease .5s;
+}
+.product-body > button:hover {
+    color: white;
+    background-color: var(--primary);
+}
+
 /*
 /////////////////////////
     Footer Styles
