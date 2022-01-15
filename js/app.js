@@ -60,12 +60,12 @@ const toggle = () => {
         body.style.marginRight = '0';
 
         toggleMenu.style.visibility = 'hidden';
-        toggleMenu.style.right = '-350px';
+        toggleMenu.style.right = '-27vw';
     }
     else {
         checkToggle = true;
         userIcon.setAttribute('src', 'resources/close-icon.png');
-        body.style.marginRight = '350px';
+        body.style.marginRight = '27vw';
 
         toggleMenu.style.visibility = 'visible';
         toggleMenu.style.right = '0';
