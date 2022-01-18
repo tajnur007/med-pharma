@@ -1,0 +1,25 @@
+/*
+////////////////////////////////////////////
+        CSS Style for Register Page Only
+////////////////////////////////////////////
+*/
+
+.create-account-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-account-form {
+    padding: 25px 50px 50px 50px;
+    background-color: white;
+    box-shadow: 0 0 5px 0 #000;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.create-account-heading {
+    color: #04aed8;
+    padding-bottom: 25px;
+    text-align: center;
+}
