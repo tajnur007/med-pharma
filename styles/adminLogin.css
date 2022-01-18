@@ -1,0 +1,25 @@
+/*
+////////////////////////////////////////////
+        CSS Style for Admin Login Page Only
+////////////////////////////////////////////
+*/
+
+.login-account-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-account-form {
+    padding: 25px 50px 50px 50px;
+    background-color: white;
+    box-shadow: 0 0 5px 0 #000;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.login-account-heading {
+    color: #04aed8;
+    padding-bottom: 25px;
+    text-align: center;
+}
