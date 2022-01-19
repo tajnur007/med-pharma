@@ -1,0 +1,49 @@
+/*
+////////////////////////////////////////////
+        CSS Style for Admin Page Only
+////////////////////////////////////////////
+*/
+:root {
+    /* Colors */
+    --primary: #292B4D;
+    --secondary: #17CBF9;
+    --ltgray: #d9dfdb;
+    --dkgray: #8f9397;
+
+    /* Sizes */
+    --regular: 16px;
+    --medium: 18px;
+    --large: 20px;
+    --extra-large: 25px;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 25vw;
+    padding: 2vw 0;
+    background-color: var(--primary);
+}
+
+.sidebar>.item {
+    color: white;
+    font-size: 1.1em;
+    margin-right: 2vw;
+    padding: 2vh 2vh 2vh 2vw;
+    border-radius: 0 10vh 10vh 0;
+    transition: .3s ease;
+}
+
+.sidebar>.item:hover {
+    background-color: #17ccf92f;
+}
+
+.rest {
+    height: 100vh;
+    width: 75vw;
+    padding: 2vw 5vw;
+}
+
+.active {
+    color: var(--primary);
+    background-color: var(--secondary);
+}
